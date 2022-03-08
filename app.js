@@ -1,16 +1,16 @@
 import angular from 'angular';
-import '@uirouter/angularjs';
+//import '@uirouter/angularjs';
 
 // Import your app stylesheets
 import './style.css';
 
 // Import your app functionality
-import './home'
+import './home';
 
 // Create and bootstrap application
 const requires = [
-  'ui.router',
-  'home'
+  //'ui.router',
+  'home',
 ];
 
 window.app = angular.module('app', requires);
